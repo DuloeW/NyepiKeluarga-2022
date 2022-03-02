@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kanit:ital,wght@1,700&family=Libre+Baskerville:wght@700&family=Quintessential&display=swap');
+::root{
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.home{
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg, #47faff, transparent);
+  transition: 2s ease-in-out;
+}
+.home .bulet1{
+  height: 250px;
+  left: -100px;
+  top: -100px;
+  width: 250px;
+  border-radius: 50%;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: inset -7px -5px 14px #d8d8d8,
+  -10px -10px 40px 5px #868686;
+}
+.home .bulet2{
+  height: 250px;
+  right: -100px;
+  bottom: -100px;
+  width: 250px;
+  border-radius: 50%;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: inset 7px 5px 14px #d8d8d8,
+  10px 10px 40px 5px #868686;
+}
+.home .gambar{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background-image: url('20220302_122252.jpg');
+  background-size: cover;
+  z-index: 10;
+  top: 260px;
+  right: 62px;
+}
+.home .text{
+  position: absolute;
+  width: 100%;
+  top: 190px;
+  font-size: 17px;
+  text-align: center;
+}
+.home .text h1{
+  font-family: 'Dancing Script', cursive;
+}
+.home .text h1:nth-child(2){
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+}

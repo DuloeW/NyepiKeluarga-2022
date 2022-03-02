@@ -1,1 +1,1 @@
-alert("Dari Bayu & Sekeluarga")
+alert("Dari Bayu")
